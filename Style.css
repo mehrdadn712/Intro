@@ -1,0 +1,131 @@
+.hero-container {
+    display: flex;
+    height: 100vh;
+}
+
+.profile {
+    height: 100vh;
+}
+
+
+h1 {
+    color: white;
+    font-size: 4rem;
+}
+
+.head1 {
+    background-color: black;
+    padding: 20pt;
+    border-radius: 15px;
+}
+
+.head2 {
+    background-color: white;
+    margin-top: 40px;
+    border: solid black 5px;
+    border-radius: 15px;
+    padding: 0px 20px;
+}
+
+.heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: "Ubuntu", serif;
+    font-weight: 700;
+    font-style: normal;
+    background: linear-gradient(90deg, #0cc0df, #c92c00 70%);
+}
+
+.main-container {
+  margin: 60px 20%;
+  font-family: "Figtree", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Item01 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.sample-text {
+    text-align: center;
+    margin-top: 60px;
+    border: solid black 5px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.sample-text > h2 {
+    margin-top: 0;
+}
+
+.botton {
+    background: #11cdd4;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.footer {
+    background: linear-gradient(90deg, #0cc0df, #c92c00 70%);
+    padding: 40px;
+    font-family: "Figtree", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.footer footer p {
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .head1 {
+        margin-top: 40px;
+    }
+
+    .head2 {
+        margin-bottom: 40px;
+    }
+
+    .profile {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .main-container {
+       display: flex;
+       flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .head2 {
+        font-size: 0.5rem ;
+    }
+}
